@@ -9,6 +9,7 @@
         "filament/filament": "^3.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "novadaemon/filament-pretty-json": "^2.1",
         "pxlrbt/filament-spotlight": "^1.2",
         "rawilk/filament-password-input": "^2.0",
         "swisnl/filament-backgrounds": "^1.1"

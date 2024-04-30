@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7aaf699ffd4d80425ae2d6ab396a3e5",
+    "content-hash": "b454e503f82202389f799b16f2c8b927",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3808,6 +3808,72 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
             },
             "time": "2024-03-05T20:51:40+00:00"
+        },
+        {
+            "name": "novadaemon/filament-pretty-json",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/novadaemon/filament-pretty-json.git",
+                "reference": "fef98d79881a5f5a9b43f6d1e0c615e1e2d4e797"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/novadaemon/filament-pretty-json/zipball/fef98d79881a5f5a9b43f6d1e0c615e1e2d4e797",
+                "reference": "fef98d79881a5f5a9b43f6d1e0c615e1e2d4e797",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^3.0",
+                "filament/forms": "^3.0",
+                "illuminate/contracts": "^10.0|^11.0",
+                "php": "^8.1|^8.2",
+                "spatie/laravel-package-tools": "^1.15.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0",
+                "nunomaduro/collision": "^7.9|^8.1",
+                "phpstan/extension-installer": "^1.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Novadaemon\\FilamentPrettyJson\\FilamentPrettyJsonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Novadaemon\\FilamentPrettyJson\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesús García",
+                    "email": "novadaemon@gmail.com"
+                }
+            ],
+            "description": "Read-only field to show pretty json in your filamentphp forms",
+            "homepage": "https://github.com/novadaemon/filament-pretty-json",
+            "keywords": [
+                "Forms",
+                "field",
+                "filament",
+                "filament-pretty-json",
+                "json",
+                "laravel",
+                "novadaemon"
+            ],
+            "support": {
+                "issues": "https://github.com/novadaemon/filament-pretty-json/issues",
+                "source": "https://github.com/novadaemon/filament-pretty-json"
+            },
+            "time": "2024-03-18T14:59:23+00:00"
         },
         {
             "name": "nunomaduro/termwind",
